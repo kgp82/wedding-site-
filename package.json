@@ -1,0 +1,14 @@
+{
+  "name": "mariage",
+  "version": "1.0.0",
+  "description": "creation of a website for the wedding of Alex and Yann",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kgp82",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}
