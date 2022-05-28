@@ -1,14 +1,28 @@
 {
   "name": "mariage",
   "version": "1.0.0",
-  "description": "creation of a website for the wedding of Alex and Yann",
+  "description": "create a wedding site for alex & yann",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgp82/wedding-site.git"
   },
   "author": "kgp82",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgp82/wedding-site/issues"
+  },
+  "homepage": "https://github.com/kgp82/wedding-site#readme",
   "devDependencies": {
-    "sass": "^1.52.1"
+    "compass-mixins": "^0.12.11",
+    "mixin-loader": "^2.0.3",
+    "sass-loader": "^13.0.0",
+    "webpack": "^5.72.1"
+  },
+  "dependencies": {
+    "lightbox2": "^2.11.3"
   }
 }

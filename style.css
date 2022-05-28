@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap");
+body {
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 14px;
+  color: #444;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 14px;
+  color: #444;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  background-image: url(../images/sunset-698501_960_720.webp);
+  background-position: 50% 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 12px 10px 5px #bfbebe;
+}
+nav h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-right: auto;
+  text-shadow: #DFDC3D 2px 0 10px;
+}
+nav a {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #444;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 20px 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #bfbebe;
+  opacity: 0.5;
+  box-shadow: 8px 5px 5px #444;
+}
+nav a:hover {
+  background-color: #ff7a00;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px #fff;
+}
+
+section {
+  margin-top: 80px;
+}
+section h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  text-decoration: underline;
+}
+section img {
+  display: block;
+  margin: 100px auto;
+  border-radius: 24px;
+  box-shadow: 8px 10px 15px rgb(101, 100, 100);
+}
+section p {
+  margin: 150px;
+  text-align: center;
+}
+section p i {
+  font-size: 24px;
+}
+
+body {
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 14px;
+  color: #444;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+  padding-top: 20px;
+  background-color: #318ce7;
+  box-shadow: 1px 1px 10px black;
+}
+footer .facebook {
+  margin-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+footer p {
+  font-size: 14px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+footer i {
+  font-size: 40px;
+  color: #444;
+}
+footer .support {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#gallery {
+  text-align: center;
+  margin: 30px;
+}
+#gallery img, #gallery video {
+  width: 400px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

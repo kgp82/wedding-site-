@@ -1,0 +1,11 @@
+@use "../Base/base.scss";
+
+    #gallery{
+        text-align: center;
+        margin: 30px;
+        
+        img, video{
+            width: 400px;
+            height: 200px;
+        }
+    }

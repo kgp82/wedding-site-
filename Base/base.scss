@@ -1,0 +1,16 @@
+$color-primary: #444;
+$color-secondary: #318ce7;
+$color-tertiary: #ff7a00;
+$color-quaternary: #bfbebe;
+
+$white: #fff;
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+
+body{
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 14px;
+    color: $color-primary;
+    box-sizing: border-box;
+    margin: 0;
+}
